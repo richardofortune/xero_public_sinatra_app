@@ -1,8 +1,7 @@
 Xero Public Sinatra App
-=======================
+===
 [![Build Status](https://travis-ci.org/richardofortune/xero_public_sinatra_app.svg?branch=master)](https://travis-ci.org/richardofortune/xero_public_sinatra_app)
-=======================
-
+===
 **Goal**: Build a simple Sinatra application that allows users to connect to the Xero API using OAuth and make calls against specific endpoints.
 
 To do:
