@@ -1,25 +1,21 @@
 require "rake"
 task :default => ["ready_for_the_day"]
 
-task :turn_off_alarm do
-    puts "Turned off alarm. Would have liked 5 more minutes, though."
+task :tests do
+    puts "totally need some tests here."
   end
  
-  task :groom_myself do
-    puts "Brushed teeth."
-    puts "Showered."
-    puts "Shaved."
+  task :build do
+    puts "Created boilerplate stuff."
+    puts "Padded out with guff."
+    puts "But thankfully got the build to go green."
   end
  
-  task :make_coffee do
-    cups = ENV["COFFEE_CUPS"] || 2
-    puts "Made #{cups} cups of coffee. Shakes are gone."
+  task :verify do
+    tests = ENV["TEST_SCENARIOS"] || 1
+    puts "Created #{tests} test(s). Trust levels are still low."
   end
  
-  task :walk_dog do
-    puts "Dog walked."
-  end
- 
-  task :ready_for_the_day => [:turn_off_alarm, :groom_myself, :make_coffee, :walk_dog] do
-    puts "Ready for the day!"
+  task :all_together_now => [:tests, :build, :verify] do
+    puts "Ready for LIVE!"
   end
