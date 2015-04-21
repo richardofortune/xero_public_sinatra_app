@@ -1,5 +1,5 @@
 require "rake"
-task :default => ["ready_for_the_day"]
+task :default => ["all_together_now"]
 
 task :tests do
     puts "totally need some tests here."
