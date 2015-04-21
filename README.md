@@ -11,7 +11,7 @@ To do:
 *Building*
 - [x] Figure out how to connect to Travis CI
 - [ ] Figure out how to build correctly using Travis
-- [ ] Create failing tests for Features
+- [ ] Create failing tests for App Features
 
 *App Features*
 - [ ] Create single page app
